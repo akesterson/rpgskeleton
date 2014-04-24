@@ -20,6 +20,8 @@ All of the files in "LICENSE/Enterbrain_files.txt" were ripped from RPG Maker VX
 
 Everything in this project not created by Enterbrain is covered by the MIT License, see LICENSE/MIT.txt.
 
+Stuff you add to the project beyond what I have here is covered under your own license; please add all applicable licenses into LICENSE/.
+
 For non-programmers
 ===================
 
