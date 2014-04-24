@@ -108,5 +108,4 @@ module RPG
   require "Scene_Debug.rb"
   require "Scene_Battle.rb"
   require "Scene_Gameover.rb"
-  require "Main.rb"
 end

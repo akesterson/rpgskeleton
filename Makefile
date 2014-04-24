@@ -1,17 +1,14 @@
-PROJECT := $(shell pwd)
-TYPE := ace
+export PROJECT := $(shell pwd)
+export TYPE := ace
 
-YAML/%.yaml : Data/%.rvdata2
-	rvpacker -d $(PROJECT) -t $(TYPE) -a unpack -D $*
+unpack:
+	make -f Makefile.unpack
 
-Data/%.rvdata2: YAML/%.yaml
-	rvpacker -d $(PROJECT) -t $(TYPE) -a pack -D $*
+pack:
+	make -f Makefile.pack
 
-datafiles := $(patsubst %.yaml,%.rvdata2,$(wildcard YAML/*.yaml))
-yamlfiles := $(patsubst %.rvdata2,%.yaml,$(wildcard Data/*.rvdata2))
+clean-yaml:
+	rm -f YAML/*
 
-unpack: $(yamlfiles)
-
-pack: $(datafiles)
-
-all:
+clean-data:
+	rm -f Data/*

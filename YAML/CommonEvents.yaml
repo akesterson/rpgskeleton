@@ -1,0 +1,72 @@
+---
+- 
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 1
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 2
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 3
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 4
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 5
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 6
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 7
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 8
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 9
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 10

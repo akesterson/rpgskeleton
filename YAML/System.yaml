@@ -1,0 +1,385 @@
+--- !ruby/object:RPG::System
+elements:
+- ''
+- Physical
+- Absorb
+- Fire
+- Ice
+- Thunder
+- Water
+- Earth
+- Wind
+- Holy
+- Dark
+start_y: 6
+airship: !ruby/object:RPG::System::Vehicle
+  start_y: 0
+  bgm: !ruby/object:RPG::BGM {name: Airship, volume: 100, pitch: 100}
+  start_x: 0
+  character_index: 3
+  character_name: Vehicle
+  start_map_id: 0
+test_battlers:
+- !ruby/object:RPG::System::TestBattler
+  actor_id: 1
+  level: 1
+  equips:
+  - 1
+  - 46
+  - 0
+  - 1
+  - 0
+_: 7829367
+edit_map_id: 1
+battle_end_me: !ruby/object:RPG::ME
+  name: Victory1
+  pitch: 100
+  volume: 100
+party_members:
+- 1
+start_x: 8
+ship: !ruby/object:RPG::System::Vehicle
+  start_y: 0
+  bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}
+  start_x: 0
+  character_index: 1
+  character_name: Vehicle
+  start_map_id: 0
+battler_hue: 0
+sounds:
+- !ruby/object:RPG::SE {name: Cursor2, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Decision3, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Cancel2, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Buzzer1, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Equip1, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Save, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Load, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Battle1, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Run, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Attack3, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Damage4, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Collapse1, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Collapse3, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Collapse4, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Damage5, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Collapse2, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Recovery, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Miss, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Evasion1, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Evasion2, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Reflection, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Shop, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Item3, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Item3, pitch: 100, volume: 80}
+variables:
+- 
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+battle_bgm: !ruby/object:RPG::BGM {name: Battle1, volume: 100, pitch: 100}
+version_id: 84191638
+start_map_id: 1
+battler_name: Assassin
+magic_number: 77696160
+switches:
+- 
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+gameover_me: !ruby/object:RPG::ME
+  name: Gameover1
+  pitch: 100
+  volume: 100
+game_title: RPGSkeleton
+title_bgm: !ruby/object:RPG::BGM {name: Theme1, volume: 100, pitch: 100}
+terms: !ruby/object:RPG::System::Terms
+  params:
+  - MaxHP
+  - MaxMP
+  - ATK
+  - DEF
+  - MAT
+  - MDF
+  - AGI
+  - LUK
+  etypes:
+  - Weapon
+  - Shield
+  - Headgear
+  - Bodygear
+  - Accessory
+  commands:
+  - Fight
+  - Escape
+  - Attack
+  - Guard
+  - Items
+  - Skills
+  - Equipment
+  - Status
+  - Formation
+  - Save
+  - Game End
+  - ''
+  - Weapons
+  - Armours
+  - Key Items
+  - Change
+  - Optimize
+  - Clear
+  - New Game
+  - Continue
+  - Shutdown
+  - To Title
+  - Cancel
+  - ''
+  basic:
+  - Level
+  - LV
+  - HP
+  - HP
+  - MP
+  - MP
+  - TP
+  - TP
+test_troop_id: 1
+boat: !ruby/object:RPG::System::Vehicle
+  start_y: 0
+  bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}
+  start_x: 0
+  character_index: 0
+  character_name: Vehicle
+  start_map_id: 0
+skill_types:
+- ''
+- Special
+- Magic
+weapon_types:
+- ''
+- Axe
+- Claw
+- Spear
+- Sword
+- Katana
+- Bow
+- Dagger
+- Hammer
+- Staff
+- Gun
+armor_types:
+- ''
+- General Armour
+- Magic Armour
+- Light Armour
+- Heavy Armour
+- Small Shield
+- Large Shield
+currency_unit: G
+window_tone: !ruby/object:Tone {r: -34.0, g: 0.0, b: 68.0, a: 0.0}
+japanese: false
+opt_draw_title: true
+opt_use_midi: false
+opt_transparent: false
+opt_followers: true
+opt_slip_death: false
+opt_extra_exp: false
+opt_display_tp: true
+battleback1_name: Grassland
+battleback2_name: Grassland
+title1_name: Plain
+title2_name: Forest
+opt_floor_death: false
