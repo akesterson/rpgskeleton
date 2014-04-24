@@ -13,6 +13,13 @@ Dependencies
 * rvpacker (https://github.com/akesterson/rvpacker)
 * RPG Maker VX Ace
 
+License
+=======
+
+All of the files in "LICENSE/Enterbrain_files.txt" were ripped from RPG Maker VX Ace, (C) Enterbrain. The Enterbrain RPG Maker VX Ace license is in this repository as LICENSE/VXACE_EULA.rtf. It is assumed that your team will have at least as many licenses of VX Ace as you have people working on the project.
+
+Everything in this project not created by Enterbrain is covered by the MIT License, see LICENSE/MIT.txt.
+
 For non-programmers
 ===================
 
