@@ -30,9 +30,9 @@ For any project built off this skeleton, collaborating is easy:
 
 * Download and install the version control client that your developer tells you to
 * Check out the project from the URL they give you
-* Unpack the project by running 'unpack.rb' (doubleclick it in Explorer)
-* Open the game project in RPG Maker and make whatever changes you want
 * Repack the project by running 'pack.rb' (doubleclick it in Explorer)
+* Open the game project in RPG Maker and make whatever changes you want
+* Unpack the project by running 'unpack.rb' (doubleclick it in Explorer)
 * Commit the project into version control
 
 Now your programmers and project managers will thank you.
@@ -53,4 +53,9 @@ For programmers and others who care about diff/merge
 
 The game skeleton has had all of the default ruby scripts yanked out. The scripts (100% stock) now live in ./Scripts/RPG/*rb. There is only one script loaded by the project proper (and which gets packed back into Data/), ./Scripts/entrypoint.rb. It doesn't do anything more than setup some load paths ( so 'require' works how we expect ), import the RPG module, and then call the main loop.
 
-If you want to modify entrypoint.rb, do it before the game loop starts.
+If you want to modify entrypoint.rb, do it before the game loop starts. However I recommend that you make a new module under Scripts/ and have the RPG module require it, or just add it to the RPG module itself.
+
+For project managers
+====================
+
+You might want to add a .gitignore to exclude Data/* to enforce that only the unpacked files get committed, and a pre-commit hook to reject any commits that don't keep YAML/ up to date with Scripts/.
