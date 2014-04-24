@@ -8,10 +8,11 @@ There is a basic empty skeleton RPG Maker VX Ace project, along with some script
 Dependencies
 ============
 
-* gnu make
-* ruby
-* rvpacker (https://github.com/akesterson/rvpacker)
-* RPG Maker VX Ace
+* Microsoft Windows (sorry - RPG Maker is windows only; if you want to run Game.exe or RPG Maker, you need Windows.)
+* gnu make (http://gnuwin32.sourceforge.net/downlinks/make.php .. or use what's in mingw/cygwin)
+* ruby ( http://www.ruby-lang.org - pik works well for windows)
+* rvpacker (https://github.com/akesterson/rvpacker - gem install rvpacker)
+* RPG Maker VX Ace (http://www.rpgmakerweb.com/products/programs/rpg-maker-vx-ace)
 
 License
 =======
