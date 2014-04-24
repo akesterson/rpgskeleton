@@ -11,7 +11,7 @@ Dependencies
 * Microsoft Windows (sorry - RPG Maker is windows only; if you want to run Game.exe or RPG Maker, you need Windows.)
 * gnu make (http://gnuwin32.sourceforge.net/downlinks/make.php .. or use what's in mingw/cygwin)
 * ruby ( http://www.ruby-lang.org - pik works well for windows)
-* rvpacker (https://github.com/akesterson/rvpacker - gem install rvpacker)
+* rvpacker (https://rubygems.org/gems/rvpacker - gem install rvpacker)
 * RPG Maker VX Ace (http://www.rpgmakerweb.com/products/programs/rpg-maker-vx-ace)
 
 License
@@ -30,17 +30,9 @@ For any project built off this skeleton, collaborating is easy:
 
 * Download and install the version control client that your developer tells you to
 * Check out the project from the URL they give you
-* Repack the project
- * If you are on Linux or OS X:
-  * Double-click the 'unpack.sh' script in Finder, Gnome file manager, or run it in a terminal
- * If you are on Windows:
-  * Double-click the 'unpack.bat' script in Explorer
+* Unpack the project by running 'unpack.rb' (doubleclick it in Explorer)
 * Open the game project in RPG Maker and make whatever changes you want
-* Unpack the project before committing it up for everyone else
- * If you are on Linux or OS X:
-  * Double-click the 'pack.sh' script in Finder, Gnome file manager, or run in a terminal
- * If you are on Windows:
-  * Double-click the 'pack.bat' script in Explorer
+* Repack the project by running 'pack.rb' (doubleclick it in Explorer)
 * Commit the project into version control
 
 Now your programmers and project managers will thank you.
