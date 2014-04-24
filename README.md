@@ -58,4 +58,4 @@ If you want to modify entrypoint.rb, do it before the game loop starts. However 
 For project managers
 ====================
 
-You might want to add a .gitignore to exclude Data/* to enforce that only the unpacked files get committed, and a pre-commit hook to reject any commits that don't keep YAML/ up to date with Scripts/.
+You might want to add a .gitignore to exclude Data/* to enforce that only the unpacked files get committed, and a pre-commit hook to reject any commits that don't keep YAML/ up to date with Data/, and Scripts/ up to date with YAML/Scripts.yaml
