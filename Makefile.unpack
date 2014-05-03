@@ -1,5 +1,5 @@
 YAML/%.yaml : Data/%.rvdata2
-	rvpacker --verbose -d $(PROJECT) -t $(TYPE) -a unpack -D $*
+	rvpacker --verbose --force -d $(PROJECT) -t $(TYPE) -a unpack -D $*
 
 yamlfiles := $(patsubst Data/%.rvdata2,YAML/%.yaml,$(wildcard Data/*.rvdata2))
 
